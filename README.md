@@ -3,6 +3,7 @@ Pulse Desktop Environment
 ✨ Overview
 
 Pulse is a modern desktop environment designed from the ground up using Qt6 and Wayland, focusing on smooth animations, polished visuals, and responsive interactions. Built with modern C++20 and QML, Pulse offers a clean, intuitive experience that feels alive with subtle animations and thoughtful design.
+
 🚀 Features
 
     Modern Wayland Native: Built on Qt6's WaylandCompositor for smooth, secure desktop experience
@@ -20,15 +21,25 @@ Pulse is a modern desktop environment designed from the ground up using Qt6 and 
     Modular Design: Separated core, compositor, shell, and services
 
 📋 Current Status
+
 Component	Status	Description
-Core System	✅ Complete	Configuration, logging, plugin framework
-Wayland Compositor	✅ Complete	Window management, GUI interface
-Desktop Shell	✅ Complete	QML-based interface with panel
-Window Manager	✅ Complete	Move, resize, minimize, maximize windows
-Plugin System	✅ Complete	Extensible architecture
-XDG Shell Protocol	🔄 In Progress	Standard Wayland window protocol
-Input Handling	📋 Planned	Mouse, keyboard, touchpad support
-Session Management	📋 Planned	Login, logout, session restore
+Core System	
+✅ Complete	Configuration, logging, plugin framework
+Wayland Compositor	
+✅ Complete	Window management, GUI interface
+Desktop Shell	
+✅ Complete	QML-based interface with panel
+Window Manager	
+✅ Complete	Move, resize, minimize, maximize windows
+Plugin System	
+✅ Complete	Extensible architecture
+XDG Shell Protocol	
+🔄 In Progress	Standard Wayland window protocol
+Input Handling	
+📋 Planned	Mouse, keyboard, touchpad support
+Session Management	
+📋 Planned	Login, logout, session restore
+
 🏗️ Architecture
 text
 
@@ -57,6 +68,7 @@ Core Components
     Window Manager: Complete window management with tiling, cascading, focus
 
 🛠️ Building from Source
+
 Prerequisites (Ubuntu 24.04)
 bash
 
@@ -81,6 +93,7 @@ sudo apt update && sudo apt install -y \
     libinput-dev
 
 Build Instructions
+
 bash
 
 # Clone repository
@@ -110,6 +123,7 @@ bash
 ./src/shell/pulse-shell
 
 🎯 Roadmap
+
 Pulse 0.2.0 "Rhythm" (Current Development)
 
     XDG Shell protocol implementation
@@ -147,6 +161,7 @@ Pulse 1.0.0 "Symphony"
     Production-ready stability
 
 📁 Project Structure
+
 text
 
 pulse/
@@ -185,6 +200,7 @@ Code Style
 📄 License
 
 Pulse Desktop Environment is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
+
 Acknowledgments
 
     Qt Project for the amazing framework
@@ -206,14 +222,6 @@ Getting Started • Architecture • Building • Contributing
 </div>
 Screenshots
 
-Coming soon - Your contributions welcome!
-Getting Help
-
-    Check the FAQ
-
-    Look at existing Issues
-
-    Start a Discussion
 
 Related Projects
 
